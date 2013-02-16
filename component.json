@@ -1,0 +1,16 @@
+{
+  "name": "mouse",
+  "repo": "ui-component/mouse",
+  "description": "mouse events.",
+  "version": "0.0.1",
+  "keywords": ["mouse"],
+  "dependencies": {
+    "component/emitter": "*",
+    "component/event": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
