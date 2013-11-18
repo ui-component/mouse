@@ -58,6 +58,7 @@ Mouse.prototype.bind = function(){
 
   // down
   self.down = function(e){
+    if (e.button !== 0) return; // only allow "left-click" to initiate
     obj.onmousedown && obj.onmousedown(e);
     event.bind(document, 'mouseup', up);
     event.bind(document, 'mousemove', move);
